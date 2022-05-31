@@ -1,0 +1,98 @@
+.navbar {
+  .container {
+    margin-left: 320px;
+  }
+
+  .iconUser {
+    font-size: 30px;
+    color: white;
+  }
+}
+
+.Textmanager {
+  text-transform: uppercase;
+  color: white !important;
+  text-decoration: none;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.item {
+  text-transform: uppercase;
+  color: white !important;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.header {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+
+  .btnlogout {
+    color: red;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .iconLogout {
+    color: red;
+    font-size: 18px;
+    margin: 2px;
+  }
+  .itemText {
+    color: whitesmoke;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar {
+    .header {
+      .item {
+        font-size: 10px;
+        padding: 7px;
+      }
+      .btnlogout {
+        font-size: 10px;
+        padding: 7px;
+      }
+
+      .iconLogout {
+        font-size: 10px;
+      }
+      .itemText {
+        font-size: 10px;
+        margin-right: 2px;
+      }
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .navbar {
+      .Textmanager {
+        font-size: 10px;
+      }
+      .iconUser {
+        font-size: 14px;
+      }
+      .header {
+        .item {
+          font-size: 5px;
+          padding: 5px;
+        }
+        .btnlogout {
+          font-size: 5px;
+          padding: 5px;
+        }
+
+        .iconLogout {
+          font-size: 5px;
+        }
+        .itemText {
+          font-size: 5px;
+          margin-right: 1px;
+        }
+      }
+    }
+  }
+}
